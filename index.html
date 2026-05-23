@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dongleer — Fine Jewellery</title>
+  <meta name="description" content="Maison Dongleer — Exquisite diamonds and precious gems, masterfully crafted for a lifetime of brilliance.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Cinzel:wght@400;500&family=EB+Garamond:ital,wght@0,400;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dongleer.css">
+</head>
+<body>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mob-menu">
+    <div class="mob-header">
+      <span class="mob-logo" style="font-family:'Great Vibes',cursive;font-size:26px;letter-spacing:1px;color:var(--accent)">Dongleer</span>
+      <button class="mob-close" id="mob-close" aria-label="Close menu">✕</button>
+    </div>
+    <a href="#about">The Maison</a>
+    <a href="#collection">Collection</a>
+    <a href="#gemstones">Gemstones</a>
+    <a href="#craftsmanship">Craftsmanship</a>
+    <a href="#gallery">Lookbook</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <nav class="nav-inner">
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="#" class="header-logo">Dongleer</a>
+      <div class="nav-links">
+        <a href="#about">The Maison</a>
+        <a href="#collection">Collection</a>
+        <a href="#gemstones">Gemstones</a>
+        <a href="#craftsmanship">Craftsmanship</a>
+        <a href="#gallery">Lookbook</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <!-- Background watermark diamond -->
+    <div class="hero-watermark">
+      <svg viewBox="0 0 200 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="100,0 200,76 100,260 0,76" stroke="currentColor" stroke-width="1.2"/>
+        <polyline points="0,76 100,46 200,76" stroke="currentColor" stroke-width="0.7" opacity="0.6"/>
+        <line x1="100" y1="0" x2="100" y2="46" stroke="currentColor" stroke-width="0.7" opacity="0.6"/>
+        <polygon points="100,46 162,86 100,228 38,86" stroke="currentColor" stroke-width="0.45" opacity="0.38"/>
+        <polyline points="38,86 100,66 162,86" stroke="currentColor" stroke-width="0.35" opacity="0.28"/>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-logo-script">
+        <div class="hero-script-name">Dongleer</div>
+        <div class="hero-script-tag">Fine Jewellery · Paris</div>
+      </div>
+
+      <h1 class="hero-title">Where Light<br>Becomes Legend</h1>
+      <p class="hero-sub">Exquisite diamonds and precious gems,<br>masterfully crafted for a lifetime of brilliance.</p>
+      <a href="#collection" class="hero-cta">Discover the Collection</a>
+    </div>
+
+    <div class="hero-scroll">
+      <span class="hero-scroll-label">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal" style="background:url('https://images.unsplash.com/photo-1677045419454-e8b201856472?auto=format&fit=crop&w=800&q=80') center/cover no-repeat"></div>
+        <div>
+          <span class="section-label reveal">The Maison</span>
+          <div class="about-rule reveal"></div>
+          <h2 class="section-title reveal">A Legacy of<br>Unmatched Brilliance</h2>
+          <p class="about-body reveal">Dongleer was born from a singular obsession: to create jewellery so extraordinary, it stops time. Founded by master craftsmen with roots in Europe's finest ateliers, we have spent decades refining our art — selecting only stones of the highest provenance, setting them with a precision that borders on the poetic.</p>
+          <blockquote class="about-pullquote reveal">Every stone we select carries within it the weight of centuries — we merely give it its final, perfect home.</blockquote>
+          <p class="about-body reveal">Our commitment extends beyond beauty. We believe fine jewellery should be as transparent as the diamonds we set. Every piece comes with its full story: where the stone was born, how it was graded, and the hands that shaped it into something eternal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ COLLECTION ═══════════════ -->
+  <section class="collection" id="collection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Diamond Collection</span>
+        <h2 class="section-title reveal">Eternally Brilliant</h2>
+        <p class="section-sub reveal">Each cut tells a different story. Each stone is chosen for the life it holds within.</p>
+      </div>
+      <div class="collection-grid">
+        <div class="c-card reveal">
+          <div class="c-img" style="background:url('https://images.unsplash.com/photo-1589674668791-4889d2bba4c6?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="c-body">
+            <div class="c-name">Round Brilliant</div>
+            <div class="c-range">0.50 — 10.00 ct</div>
+            <p class="c-desc">The world's most celebrated cut, prized for its extraordinary light performance and timeless allure.</p>
+          </div>
+        </div>
+        <div class="c-card reveal reveal-d1">
+          <div class="c-img" style="background:url('https://images.unsplash.com/photo-1588444650733-d0767b753fc8?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="c-body">
+            <div class="c-name">Princess Cut</div>
+            <div class="c-range">0.50 — 8.00 ct</div>
+            <p class="c-desc">Modern geometry meets timeless brilliance in this boldly architectural, square-shaped form.</p>
+          </div>
+        </div>
+        <div class="c-card reveal reveal-d2">
+          <div class="c-img" style="background:url('https://images.unsplash.com/photo-1613945408510-0be25b4ebe40?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="c-body">
+            <div class="c-name">Emerald Cut</div>
+            <div class="c-range">1.00 — 12.00 ct</div>
+            <p class="c-desc">Sophisticated step-cut facets reveal the stone's inner hall of mirrors — clarity in its purest form.</p>
+          </div>
+        </div>
+        <div class="c-card reveal reveal-d3">
+          <div class="c-img" style="background:url('https://images.unsplash.com/photo-1648564585735-19491888545c?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="c-body">
+            <div class="c-name">Pear Shape</div>
+            <div class="c-range">0.75 — 9.00 ct</div>
+            <p class="c-desc">A teardrop of pure light — romantic, rare, and impossibly graceful in every setting.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ GEMSTONES ═══════════════ -->
+  <section class="gemstones" id="gemstones">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Precious Gemstones</span>
+        <h2 class="section-title reveal">Nature's Finest Colours</h2>
+        <p class="section-sub reveal">Beyond diamonds, a world of colour awaits — each stone with its own story, rarity, and soul.</p>
+      </div>
+      <div class="gems-grid">
+        <div class="gem-card reveal">
+          <div class="gem-ph" style="background:url('https://images.unsplash.com/photo-1560427450-00fa9481f01e?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="gem-info">
+            <div class="gem-name">Ruby</div>
+            <div class="gem-origin">Burma · Mozambique · Thailand</div>
+          </div>
+        </div>
+        <div class="gem-card reveal reveal-d1">
+          <div class="gem-ph" style="background:url('https://images.unsplash.com/photo-1613843351058-1dd06fda7c02?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="gem-info">
+            <div class="gem-name">Sapphire</div>
+            <div class="gem-origin">Kashmir · Sri Lanka · Madagascar</div>
+          </div>
+        </div>
+        <div class="gem-card reveal reveal-d2">
+          <div class="gem-ph" style="background:url('https://images.unsplash.com/photo-1625479610681-f789345a8157?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="gem-info">
+            <div class="gem-name">Emerald</div>
+            <div class="gem-origin">Colombia · Zambia · Brazil</div>
+          </div>
+        </div>
+        <div class="gem-card reveal reveal-d3">
+          <div class="gem-ph" style="background:url('https://images.unsplash.com/photo-1551947391-249dcb8ed976?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+          <div class="gem-info">
+            <div class="gem-name">Tanzanite</div>
+            <div class="gem-origin">Exclusively from Tanzania</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CRAFTSMANSHIP ═══════════════ -->
+  <section class="craftsmanship" id="craftsmanship">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">The Art of Creation</span>
+        <h2 class="section-title reveal">Masterful Craftsmanship</h2>
+        <p class="section-sub reveal">Four sacred stages. One uncompromising standard. The Dongleer way.</p>
+      </div>
+      <div class="craft-grid">
+        <div class="craft-step reveal">
+          <div class="craft-num">I</div>
+          <div class="craft-name">Stone Selection</div>
+          <p class="craft-body">Our master gemologist travels to the world's finest sources, hand-selecting only stones that meet Dongleer's exacting standards for colour, clarity, and character.</p>
+        </div>
+        <div class="craft-step reveal reveal-d1">
+          <div class="craft-num">II</div>
+          <div class="craft-name">Design & Blueprint</div>
+          <p class="craft-body">Every piece begins as a sketch and evolves through meticulous modelling, ensuring each design element works in perfect harmony with the stone it will hold.</p>
+        </div>
+        <div class="craft-step reveal reveal-d2">
+          <div class="craft-num">III</div>
+          <div class="craft-name">Master Setting</div>
+          <p class="craft-body">Our artisans — each with no fewer than twenty years of experience — set each stone by hand, guided by instinct honed over a lifetime in the craft.</p>
+        </div>
+        <div class="craft-step reveal reveal-d3">
+          <div class="craft-num">IV</div>
+          <div class="craft-name">Final Perfection</div>
+          <p class="craft-body">Before leaving our atelier, every piece undergoes a rigorous 47-point inspection. Only then does it receive the Dongleer hallmark: our lifetime guarantee.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CERTIFICATIONS ═══════════════ -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <div class="cert-row">
+        <div class="cert-item reveal">
+          <div class="cert-icon">GIA</div>
+          <div class="cert-name">GIA Certified</div>
+          <p class="cert-desc">Graded by the world's most respected gemological authority</p>
+        </div>
+        <div class="cert-item reveal reveal-d1">
+          <div class="cert-icon">CF</div>
+          <div class="cert-name">Conflict-Free</div>
+          <p class="cert-desc">Every stone traceable to its verified ethical origin</p>
+        </div>
+        <div class="cert-item reveal reveal-d2">
+          <div class="cert-icon">AC</div>
+          <div class="cert-name">Artisan Crafted</div>
+          <p class="cert-desc">Hand-finished in our European atelier by master craftsmen</p>
+        </div>
+        <div class="cert-item reveal reveal-d3">
+          <div class="cert-icon">∞</div>
+          <div class="cert-name">Lifetime Hallmark</div>
+          <p class="cert-desc">Our guarantee of enduring quality, forever</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ GALLERY ═══════════════ -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Lookbook</span>
+        <h2 class="section-title reveal">A Vision of Radiance</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="g1" style="background:url('https://images.unsplash.com/photo-1481980235850-66e47651e431?auto=format&fit=crop&w=900&q=80') center/cover no-repeat"></div>
+        <div class="g2" style="background:url('https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat"></div>
+        <div class="g3" style="background:url('https://images.unsplash.com/photo-1605100804567-1ffe942b5cd6?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+        <div class="g4" style="background:url('https://images.unsplash.com/photo-1689743801114-230453abfceb?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+        <div class="g5" style="background:url('https://images.unsplash.com/photo-1600143674013-a690b5d25104?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+        <div class="g6" style="background:url('https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+        <div class="g7" style="background:url('https://images.unsplash.com/photo-1525256074812-2f0a984bafad?auto=format&fit=crop&w=600&q=80') center/cover no-repeat"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <span class="section-label reveal">Private Consultations</span>
+          <h2 class="section-title reveal">Begin Your<br>Story With Us</h2>
+          <div class="contact-rule reveal"></div>
+          <address class="contact-address reveal">
+            Maison Dongleer<br>
+            3 Rue de la Paix<br>
+            75002 Paris, France<br><br>
+            By appointment only<br>
+            +33 1 42 60 00 00<br>
+            contact@dongleer.com
+          </address>
+        </div>
+        <form class="c-form reveal" id="contact-form" onsubmit="return false;">
+          <div class="f-row">
+            <div class="f-field">
+              <label class="f-label">Full Name</label>
+              <input class="f-input" type="text">
+            </div>
+            <div class="f-field">
+              <label class="f-label">Email Address</label>
+              <input class="f-input" type="email">
+            </div>
+          </div>
+          <div class="f-row">
+            <div class="f-field">
+              <label class="f-label">Phone (Optional)</label>
+              <input class="f-input" type="tel">
+            </div>
+            <div class="f-field">
+              <label class="f-label">Area of Interest</label>
+              <div class="f-select-wrap">
+                <select class="f-select">
+                  <option value="">Select interest</option>
+                  <option>Diamond — Round Brilliant</option>
+                  <option>Diamond — Fancy Cut</option>
+                  <option>Coloured Gemstones</option>
+                  <option>Bespoke Commission</option>
+                  <option>General Enquiry</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="f-field">
+            <label class="f-label">Message</label>
+            <textarea class="f-textarea" placeholder="Tell us about your vision…"></textarea>
+          </div>
+          <button type="submit" class="f-submit">Submit Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo" style="font-family:'Great Vibes',cursive;font-size:26px;letter-spacing:1px;color:var(--accent)">Dongleer</span>
+        <div class="footer-links">
+          <a href="#about">The Maison</a>
+          <a href="#collection">Collection</a>
+          <a href="#gallery">Lookbook</a>
+          <a href="#contact">Contact</a>
+          <a href="#">Privacy</a>
+        </div>
+        <span class="footer-copy">© 2024 Dongleer. All rights reserved.</span>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-dir-label">COLOURWAY</span>
+        <div class="footer-dir-btns">
+          <button class="dir-page-btn active" id="page-dir-a">The Noir</button>
+          <button class="dir-page-btn" id="page-dir-b">The Classique</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Tweaks Panel -->
+  <div class="tweaks-panel" id="tweaks-panel">
+    <div class="tp-head">
+      <span class="tp-title">TWEAKS</span>
+      <button class="tp-close" id="tp-close">✕</button>
+    </div>
+    <div class="tp-body">
+      <div>
+        <div class="tp-label">VISUAL DIRECTION</div>
+        <div class="dir-btns">
+          <button class="dir-btn active" id="dir-a-btn">The Noir</button>
+          <button class="dir-btn" id="dir-b-btn">The Classique</button>
+        </div>
+      </div>
+      <p class="tp-note">Toggle between warm gold (The Noir) and cool platinum (The Classique) palettes.</p>
+    </div>
+  </div>
+
+  <script src="dongleer.js"></script>
+</body>
+</html>
